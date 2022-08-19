@@ -1,5 +1,16 @@
 # Detecting offensive language in Wikipedia comments
 
+## Dataset
+
+The dataset was obtained from Kaggle under the Toxic Comment Classification Challenge posted by Jigsaw/Conversation AI:
+https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data
+
+## Aims and objectives
+To classify the Wikipedia comments by predicting the presence/absence of the 6 toxicity types in each comment:
+toxic, severe_toxic, obscene, threat, insult, identity_hate.
+
+The multi-class classification task will be decomposed into six independent binary classification task, one per category.
+
 ## Contents:
 
 1. Exploratory Data Analysis
